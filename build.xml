@@ -1,0 +1,92 @@
+<?xml version="1.0" ?>
+<project name="MetalSlug" default="cleanUp">
+
+    <property name="project.name" value="sirJoca" />
+    <property name="src.dir" value="src" />
+    <property name="main.class" value="io.codeforall.bootcamp.Main" />
+    <property name="build.dir" value="build" />
+    <property name="classes.dir" value="${build.dir}/classes" />
+    <property name="lib.dir" value="lib" />
+    <property name="resources.dir" value=".resources" />
+    <property name="zip.dir" value="${build.dir}/zip" />
+
+    <!-- Define the destination ZIP file -->
+    <property name="dest.file" value="${zip.dir}/resources.zip" />
+
+    <path id="classpath">
+        <fileset dir="${lib.dir}" includes="**/*.jar" />
+    </path>
+
+    <!-- Define the init target to initialize properties -->
+    <target name="init">
+        <!-- Create the build directory if it doesn't exist -->
+        <mkdir dir="${build.dir}" />
+    </target>
+
+    <!-- Define the prepare target to create necessary directories -->
+    <target name="prepare" depends="init">
+        <!-- Create the classes directory -->
+        <mkdir dir="${classes.dir}" />
+    </target>
+
+    <!-- Define the files and folders to include in the ZIP -->
+    <fileset id="files.to.zip" dir="${resources.dir}">
+        <include name="**/*" />
+    </fileset>
+
+    <!-- Target to create the ZIP file -->
+    <target name="zip">
+        <zip destfile="${dest.file}">
+            <fileset refid="files.to.zip" />
+        </zip>
+    </target>
+
+    <!-- Define the compile target to compile the Java source code -->
+    <target name="compile" depends="prepare">
+        <javac srcdir="${src.dir}" destdir="${classes.dir}">
+            <src path="${zip.dir}"/>
+            <classpath refid="classpath"/>
+        </javac>
+    </target>
+
+    <!-- Define the copy-resources target to copy resource files -->
+    <target name="copy-resources" depends="prepare">
+        <!-- Copy resources to build directory -->
+        <copy todir="${build.dir}/.resources">
+            <fileset dir="${zip.dir}" />
+        </copy>
+    </target>
+
+    <!-- Define the jarfile target to create a JAR file -->
+    <target name="jarfile" depends="zip, compile, copy-resources">
+        <!-- Create the JAR file -->
+        <jar destfile="${build.dir}/${project.name}.jar" basedir="${classes.dir}">
+            <!-- Include resource files in the JAR -->
+            <fileset dir="${zip.dir}" />
+            <!-- Add main class attribute to manifest -->
+            <manifest>
+                <attribute name="Main-Class" value="${main.class}" />
+                <attribute name="Class-Path" value="${lib.dir}" />
+            </manifest>
+            <zipgroupfileset dir="${lib.dir}" includes="*.jar"/>
+            <zipfileset src="${dest.file}" />
+        </jar>
+    </target>
+
+    <target name="cleanUp" depends="jarfile">
+
+        <delete dir="${classes.dir}" />
+        <delete dir="${build.dir}/.resources" />
+        <delete dir="${build.dir}/zip" />
+        <delete file="${build.dir}/resources.zip" />
+
+    </target>
+
+    <!-- Define the clean target to clean up the project -->
+    <target name="clean">
+        <!-- Delete the build directory -->
+        <delete dir="${build.dir}" />
+        <delete dir="${zip.dir}" />
+    </target>
+
+</project>
