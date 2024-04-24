@@ -30,17 +30,15 @@ public class Enemy extends Entity {
     }
 
     public void randomDirection() {
-        if (Math.random() < 0.5) {
-            movingRight = true;
-            return;
-        }
-        movingLeft = true;
+        boolean randomValue = Math.random() < 0.5;
+        movingRight = randomValue;
+        movingLeft = !randomValue;
     }
 
     private void spawnBehaviour() {
         randomDirection();
 
-        if (entityType.equals(EntityType.FLAMEPIG)) {
+        if (entityType.equals(EntityType.FLAMEPIG.TYPE)) {
             movingLeft = false;
             movingRight = false;
         }
