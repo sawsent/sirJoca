@@ -11,13 +11,14 @@ public class Enemy extends Entity {
     private int framesTillDespawn = 5 * FPS;
     public final String type;
 
-    public Enemy(SpriteGroup[] groups, double x, double y, EntityType  entityType, SpriteGroup obstacleSprites) {
+    public Enemy(SpriteGroup[] groups, double x, double y, EntityType entityType, SpriteGroup obstacleSprites) {
         super(groups, x, y, obstacleSprites, entityType);
         this.type = entityType.TYPE;
         spawnBehaviour();
     }
+
     private void despawn() {
-        if (dead && --framesTillDespawn < 0) {
+        if (framesTillDespawn-- < 0 && dead) {
             kill();
             currentFrame.delete();
         }
@@ -65,5 +66,3 @@ public class Enemy extends Entity {
     }
 
 }
-
-
