@@ -1,0 +1,67 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "fileStates": {
+        "decors.tsx": {
+            "scaleInDock": 0.31,
+            "scaleInEditor": 1
+        },
+        "decorsx4.tsx": {
+            "scaleInDock": 0.331,
+            "scaleInEditor": 1
+        },
+        "grass.tsx": {
+            "scaleInDock": 0.2234,
+            "scaleInEditor": 1
+        },
+        "lvl2.tmx": {
+            "scale": 0.33,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 10589.39393939394,
+                "y": 1228.7878787878788
+            }
+        },
+        "mountain.tsx": {
+            "scaleInDock": 0.2243,
+            "scaleInEditor": 1
+        },
+        "sky.tsx": {
+            "scaleInDock": 0.191,
+            "scaleInEditor": 1
+        },
+        "tiles.tsx": {
+            "scaleInDock": 0.6107,
+            "scaleInEditor": 1
+        }
+    },
+    "last.imagePath": "C:/Users/TheGeekLoft/Desktop/lvl2",
+    "map.height": 48,
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 64,
+    "map.tileWidth": 64,
+    "map.width": 256,
+    "openFiles": [
+    ],
+    "project": "lvl2.tiled-project",
+    "recentFiles": [
+        "sky.tsx",
+        "mountain.tsx",
+        "grass.tsx",
+        "decors.tsx",
+        "decorsx4.tsx",
+        "tiles.tsx",
+        "lvl2.tmx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 64,
+        "width": 64
+    }
+}
