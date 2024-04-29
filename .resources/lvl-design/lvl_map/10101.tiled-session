@@ -1,0 +1,95 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "testeb.tmx",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "file.lastUsedOpenFilter": "Todos os Arquivos (*)",
+    "fileStates": {
+        "Asset.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Sky.tsx": {
+            "scaleInDock": 0.125,
+            "scaleInEditor": 1
+        },
+        "decors.tsx": {
+            "scaleInDock": 0.5,
+            "scaleInEditor": 1
+        },
+        "decors2.tsx": {
+            "scaleInDock": 0.33,
+            "scaleInEditor": 1
+        },
+        "grass.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "grassx4.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "mountains.tsx": {
+            "scaleInDock": 0.125,
+            "scaleInEditor": 0.5
+        },
+        "testea.tmx": {
+            "scale": 0.25,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 9226,
+                "y": 302
+            }
+        },
+        "testeb.tmx": {
+            "scale": 0.0625,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 5432,
+                "y": 1896
+            }
+        },
+        "tile1.tsx": {
+            "scaleInDock": 0.5,
+            "scaleInEditor": 1
+        }
+    },
+    "last.exportedFilePath": "C:/Users/TheGeekLoft/Desktop/lvl_map",
+    "last.imagePath": "C:/Users/TheGeekLoft/Desktop",
+    "map.fixedSize": false,
+    "map.lastUsedExportFilter": "Todos os Arquivos (*)",
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 64,
+    "map.tileWidth": 64,
+    "openFiles": [
+        "testeb.tmx",
+        "mountains.tsx",
+        "grassx4.tsx",
+        "Sky.tsx",
+        "decors.tsx",
+        "decors2.tsx",
+        "testea.tmx"
+    ],
+    "project": "10101.tiled-project",
+    "recentFiles": [
+        "testea.tmx",
+        "decors2.tsx",
+        "decors.tsx",
+        "Sky.tsx",
+        "grassx4.tsx",
+        "mountains.tsx",
+        "testeb.tmx",
+        "grass.tsx",
+        "Asset.tsx",
+        "tile1.tsx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 64,
+        "width": 64
+    }
+}

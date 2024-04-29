@@ -1,0 +1,131 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "C:/Users/TheGeekLoft/Desktop/lvl_map/testeb..tmx",
+    "expandedProjectPaths": [
+    ],
+    "file.lastUsedOpenFilter": "Todos os Arquivos (*)",
+    "fileStates": {
+        "C:/Users/TheGeekLoft/Desktop/lvl2/decors.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/TheGeekLoft/Desktop/lvl2/decorsx4.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/TheGeekLoft/Desktop/lvl2/grass.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/TheGeekLoft/Desktop/lvl2/lvl2.tmx": {
+            "scale": 0.33,
+            "selectedLayer": 9,
+            "viewCenter": {
+                "x": 14954.545454545456,
+                "y": 1753.030303030303
+            }
+        },
+        "C:/Users/TheGeekLoft/Desktop/lvl2/mountain.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/TheGeekLoft/Desktop/lvl2/sky.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/TheGeekLoft/Desktop/lvl2/tiles.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/TheGeekLoft/Desktop/lvl_map/Sky.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/TheGeekLoft/Desktop/lvl_map/decors.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/TheGeekLoft/Desktop/lvl_map/decors2.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/TheGeekLoft/Desktop/lvl_map/grass.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/TheGeekLoft/Desktop/lvl_map/grassx4.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/TheGeekLoft/Desktop/lvl_map/mountains.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/TheGeekLoft/Desktop/lvl_map/testeb..tmx": {
+            "scale": 0.015625,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 15488,
+                "y": 6368
+            }
+        },
+        "C:/Users/TheGeekLoft/Desktop/lvl_map/tile1.tsx": {
+            "scaleInDock": 1
+        },
+        "decors.tsx": {
+            "scaleInDock": 0.4029,
+            "scaleInEditor": 1
+        },
+        "decorsx4.tsx": {
+            "scaleInDock": 0.3358,
+            "scaleInEditor": 1
+        },
+        "grass.tsx": {
+            "scaleInDock": 0.2015,
+            "scaleInEditor": 1
+        },
+        "lvl3.tmx": {
+            "scale": 0.03,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 8133.333333333334,
+                "y": 1549.999999999999
+            }
+        },
+        "mountain.tsx": {
+            "scaleInDock": 0.2041,
+            "scaleInEditor": 1
+        },
+        "sky.tsx": {
+            "scaleInDock": 0.1713,
+            "scaleInEditor": 1
+        },
+        "tiles.tsx": {
+            "scaleInDock": 0.5758,
+            "scaleInEditor": 1
+        }
+    },
+    "last.imagePath": "C:/Users/TheGeekLoft/Desktop/lvl3",
+    "map.height": 48,
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 64,
+    "map.tileWidth": 64,
+    "map.width": 256,
+    "openFiles": [
+        "lvl3.tmx",
+        "grass.tsx",
+        "mountain.tsx",
+        "sky.tsx",
+        "decors.tsx",
+        "decorsx4.tsx",
+        "C:/Users/TheGeekLoft/Desktop/lvl_map/testeb..tmx"
+    ],
+    "project": "lvl3.tiled-project",
+    "recentFiles": [
+        "lvl3.tmx",
+        "grass.tsx",
+        "mountain.tsx",
+        "sky.tsx",
+        "decors.tsx",
+        "decorsx4.tsx",
+        "C:/Users/TheGeekLoft/Desktop/lvl_map/testeb..tmx",
+        "C:/Users/TheGeekLoft/Desktop/lvl2/lvl2.tmx",
+        "tiles.tsx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 64,
+        "width": 64
+    }
+}
